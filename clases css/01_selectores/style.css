@@ -1,0 +1,12 @@
+/*Selector por elemento*/
+p{
+    color: green;
+}
+
+.ingrediente-faltante{
+    color: red;
+}
+
+#ingrediente-secreto{
+    color: aquamarine;
+}

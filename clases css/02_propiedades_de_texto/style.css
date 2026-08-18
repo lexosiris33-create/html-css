@@ -1,0 +1,42 @@
+p{
+    /*Recuerda que los colores por nombres se interpretan diferentes en cada navegador*/
+    /*Simpre deja el ;  aun en el ultimo elemento*/
+    color: green;
+
+    /*Las comillas se usan cuando el nombre de la tipo tiene mas de una palabra y no esta separa por un - si no da error*/
+    /*las , da una lista al navegador por si algo falla el navegador le de ->->->*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /*El valor de font size por default es 16px (tamaño de letra)*/
+    font-size: 23px;
+
+    /*font weigth es el grosor de la letra bold = Negrita o <Strong> <- mejora el pocisionamiento en el buscador*/
+    /*Como funcionan los N00 en el weight -> Cuando se muestra un cambio en el grosor de las letras es por que el diseño fue considerado para ese valor, si no hay cambio el creador no considero esos valores*/
+    /*Bolder funciona con un valor N00 a N+M00*/
+    font-weight: 900;
+
+    /*Inclina la tipografia italic oblique & oblique + n°*/
+    font-style: italic;
+
+    /*alinea el texto izquierda es default solo si el texto no es del mismo tamaño de su contenedor center reigth left y justify start y end define la alineacion con el texto con base en la region de la pagina*/
+    text-align: justify;
+
+    /*Se pueden mezclar define una linea arriba abajo o en medio no uses blink su defaule es none*/
+    text-decoration: none;
+
+    /*Espaciado entre las lineas por medio de numero y %*/
+    line-height: 100%;
+
+    /*Separa las letras entre ellas*/
+    letter-spacing: 10px;;
+
+    /*Transforma de manera visual el texto en mayus o min*/
+    text-transform: uppercase;
+
+    /*capitalize agrega mayuscula a la mprimera letra de cada palabra*/
+    text-shadow: 10px;
+}
+
+a{
+    text-decoration: none;
+}
